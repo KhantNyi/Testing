@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: Lato;
 }
 
 .faded {
@@ -23,7 +23,37 @@ header.startup {
 
 header.startup h1 {
   font-size: 2.5rem; 
-  font-family: 'Lato';
+  font-family: 'Knewave';
+  letter-spacing: 5px;
+  font-weight: 100px;
+}
+
+header.startuptwo {
+  background-position: center;
+  background-image: url("img/2.jpg");
+  opacity: 0.9;
+  background-size: cover;
+  height: 100%;
+}
+
+header.startuptwo h1 {
+  font-size: 2.5rem; 
+  font-family: 'Knewave';
+  letter-spacing: 5px;
+  font-weight: 100px;
+}
+
+header.startupthree {
+  background-position: center;
+  background-image: url("img/3.jpg");
+  opacity: 0.9;
+  background-size: cover;
+  height: 100%;
+}
+
+header.startupthree h1 {
+  font-size: 2.5rem; 
+  font-family: 'Knewave';
   letter-spacing: 5px;
   font-weight: 100px;
 }
@@ -32,7 +62,7 @@ header.startup h1 {
   font-weight: 700;
   text-transform: uppercase;
   border-radius: 300px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato';
 }
 
 .btn-xl {
