@@ -5,57 +5,40 @@ html {
   height: 100%; 
 }
 
-body {
-  font-family: Lato;
-}
 
 .faded {
   color: rgba(255, 255, 255, 0.8); 
 }
 
-header.startup, header.startuptwo, header.startupthree{
+header{
   background-position: center;
   opacity: 0.9;
   background-size: cover;
   height: 100%;
 }
 
-header.startup {
-  background-image: url("img/1.jpg")
+.pic2 {
+  background-image: url("https://pmcvariety.files.wordpress.com/2017/01/schindlers-list.jpg?w=1000&h=563&crop=1")
 }
 
-header.startuptwo {
-  background-image: url("img/2.jpg")
+.pic3 {
+  background-image: url("https://images.amcnetworks.com/amc.com/wp-content/uploads/2012/06/BB_S5B_004_L.jpg")
 }
 
-header.startupthree {
-  background-image: url("img/3.jpg")
+.pic4 {
+  background-image: url("https://uvmbored.com/wp-content/uploads/2017/10/spirited-away-ghibli-miyazaki-15th-15-year-anniversary-best-animation-hannah-ewens-body-image-1468945005-size_1000.jpg")
 }
 
-header.startup, header.startuptwo, header.startupthree h1 {
+header h1 {
   font-size: 2.5rem; 
-  font-family: 'Knewave';
+  font-family: 'Niramit';
   letter-spacing: 5px;
   font-weight: 100px;
 }
 
-.btn {
-  font-weight: 700;
-  text-transform: uppercase;
-  border-radius: 300px;
-  font-family: 'Lato';
+header p {
+  font-size: 1rem; 
+  font-family: 'Archivo';
+  letter-spacing: 3px;
+  font-weight: 30px;
 }
-
-.btn-xl {
-  padding: 1rem 2rem; 
-}
-
-.btn-primary {
-  background-color: rgb(10, 183, 62);
-  border-color: rgb(10, 183, 62); }
-
-.btn-primary:hover {
-  background-color: #0cb7f5;
-  border-color: #0cb7f5;
-}
-  
